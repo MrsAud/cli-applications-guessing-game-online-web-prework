@@ -6,7 +6,7 @@ def run_guessing_game
   input = gets.chomp
   
   # print 1 of 3 statements using if (match), elsif (exit), else
-  if input = number
+  if input == "#{number}"
     puts "You guessed the correct number!"
   elsif input == "exit"
     puts "Goodbye!"
