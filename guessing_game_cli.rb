@@ -2,7 +2,6 @@ def run_guessing_game
   # generate number 1-6 using rand
   number = rand(6) + 1
   # prompt user input
-  puts "Pick a number between 1 and 6."
   # capture user input using gets.chomp
   input = gets.chomp
   
